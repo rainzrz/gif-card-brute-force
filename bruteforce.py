@@ -1,6 +1,6 @@
 # Defina todas as variáveis globais em um único lugar
 CARACTERES = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ'  # Caracteres possíveis
-TAMANHO_PADRAO = 5  # Tamanho padrão do código
+TAMANHO_PADRAO = 4  # Tamanho padrão do código
 MENSAGEM_ACERTO = "Código Encontrado: {}"  # Mensagem de sucesso
 MENSAGEM_COMBINACOES = "Total de combinações possíveis: {}"  # Mensagem de log
 
