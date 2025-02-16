@@ -1,4 +1,4 @@
-def gerarCodigoManual(tamanho, caracteres='0123456789'):
+def gerarCodigoManual(tamanho, caracteres='0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ'):
     if tamanho == 0:
         yield ""  
     else:
@@ -17,6 +17,6 @@ def bruteForceGiftCard(codigoGiftCard, tamanho):
             return codigoGerado
 
 # Exemplo de uso
-codigoGiftCard = "12345678"
+codigoGiftCard = "12345A"
 tamanhoCodigo = len(codigoGiftCard)
 bruteForceGiftCard(codigoGiftCard, tamanhoCodigo)
